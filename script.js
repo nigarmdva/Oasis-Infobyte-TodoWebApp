@@ -81,7 +81,7 @@ function show() {
                   group[i].checked ? "line-through" : "none"
                 }">${group[i].value}</span>
             </div>
-            <div style="display: flex; gap: 10px;"> <!-- Buttonları yan yana yerleştiriyoruz -->
+            <div style="display: flex; gap: 10px;"> 
               <button onclick="edit(${i})">Edit</button>
               <button onclick="del(${i})">X</button>
             </div>
